@@ -61,7 +61,9 @@ body{
   border:0;
   color:#fff;
   font-weight:800;
-  background: linear-gradient(135deg,var(--brand1),var(--brand2));
+  /* background: linear-gradient(135deg,var(--brand1),var(--brand2)); */
+  background: linear-gradient(135deg, #f59e0b, #dc2626);
+
   box-shadow: 0 10px 25px rgba(238,9,121,.25);
 }
 .btn-gradient:hover{filter: brightness(1.05);}
@@ -156,7 +158,10 @@ body{
   text-decoration:none;
 }
 .fab a.whatsapp{background:#22c55e;color:#fff;}
-.fab a.call{background: linear-gradient(135deg,var(--brand1),var(--brand2)); color:#fff;}
+/* .fab a.call{background: linear-gradient(135deg,var(--brand1),var(--brand2)); color:#fff;} */
+.fab a.call{
+   background: linear-gradient(135deg, #f59e0b, #dc2626);
+}
 .small-note{color:var(--muted); font-size:.95rem;}
 
 
